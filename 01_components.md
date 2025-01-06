@@ -19,11 +19,13 @@ Most resources on the internet recommend the
 [B-Series](https://learn.microsoft.com/en-us/azure/virtual-machines/sizes-b-series-burstable) VM SKUs because
 they are very budget-friendly, starting around $30/month for both Linux and Windows. However, Microsoft no longer 
 allows the use of B-Series VMs as System Nodes for an AKS cluster because of performance issues with the scheduler, 
-so another SKU has to be used. 
+so another SKU has to be used (see [Restricted VM sizes](https://learn.microsoft.com/en-us/azure/aks/quotas-skus-regions#restricted-vm-sizes)). 
+Microsoft also requires at least 2 CPUs and 4GB of RAM for a node. 
 
-The following list contains lower-cost, General Purpose SKUs that support Local (Ephemeral) Storage 
-as of 12/15/2024. Unfortunately the cheapest usable VM Size for the system node pool is now almost 
-double the cost of the equivalent B-Series SKUs at around $50 (ARM) or $60 (x64) per month.
+The following list (compiled on 12/15/2024) contains lower-cost, General Purpose SKUs that support 
+Local (Ephemeral) Storage and the 2 CPU / 4GB RAM AKS node requirements. Unfortunately the cheapest  
+usable VM Size for the system node pool is now almost double the cost of the equivalent B-Series SKUs 
+at around $50 (ARM) or $60 (x64) per month.
 
 | VM Size       |vCPUs| RAM |Disks|IOPS |LocalDisk   |Lnx24 |Lnx4 |Win24 |Win4 | Notes |
 |---------------|-----|-----|-----|-----|------------|------|-----|------|-----|-------|
@@ -66,5 +68,5 @@ double the cost of the equivalent B-Series SKUs at around $50 (ARM) or $60 (x64)
 
 \
 Next: [Estimating Cluster Costs](.\02_costs.html) \
-Previous: [Readme](.\index.html)
+Previous: [Table of Contents](.\index.html)
  

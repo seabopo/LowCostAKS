@@ -40,6 +40,9 @@ Nodes:
  - L = Linux Application Node
  - w = Windows Application Node
 
+Unfortunately, even a single node cluster using the cheapest SKU available can't be run 24x7.
+
 \
 Next: [Installing Local Software Components](.\03_install.html) \
-Previous: [Required Components](.\01_components.html)
+Previous: [Required Components](.\01_components.html) \
+[Table of Contents](.\index.html)
