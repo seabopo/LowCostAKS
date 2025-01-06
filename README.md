@@ -38,7 +38,7 @@ The following list contains lower-cost, General Purpose SKUs that support Local 
 as of 12/15/2024. Unfortunately the cheapest usable VM Size for the system node pool is now almost 
 double the cost of the equivalent B-Series SKUs at around $50 (ARM) or $60 (x64) per month.
 
-| VM Size       |vCPUs| RAM |Disks|IOPS |Local Disk  |Lnx 24|Lnx 4|Win 24|Win 4| Notes |
+| VM Size       |vCPUs| RAM |Disks|IOPS |LocalDisk   |Lnx24 |Lnx4 |Win24 |Win4 | Notes |
 |---------------|-----|-----|-----|-----|------------|------|-----|------|-----|-------|
 |   B2s         |  2  |  4  |  4  |1,280|   8 (SCSI) | $28  | $5  | $33  | $6  | (s)   |
 |   D2plds_v5   |  2  |  4  |  4  |3,750|  75 (SCSI) | $49  | $9  | $101 | $17 | (a)   |
@@ -87,15 +87,15 @@ doubles the monthly cost for a Windows OS vs a Linux OS.
 
 Running a 2-node cluster based on these SKUs for one week accrued the following subscription costs:
 
-| Cluster Component                     | Weekly Cost | Hourly Cost |
-|---------------------------------------|-------------|-------------|
-| System Pool Node (D2plds_v5)          |      $11.23 |      $0.067 |
-| System Pool Node Disk (128GB)         |       $2.91 |      $0.017 |
-| Application Pool Node (B2s)           |       $7.50 |      $0.045 |
-| Application Pool Node Storage (128GB) |       $3.43 |      $0.020 |
-| Public IP Address                     |       $0.65 |      $0.004 |
-| Kubernetes Standard Load Balancer     |       $3.26 |      $0.019 |
-| Total                                 |      $28.98 |      $0.173 |
+| Cluster Component                     | WeeklyCost | HourlyCost |
+|---------------------------------------|------------|------------|
+| System Pool Node (D2plds_v5)          |     $11.23 |     $0.067 |
+| System Pool Node Disk (128GB)         |      $2.91 |     $0.017 |
+| Application Pool Node (B2s)           |      $7.50 |     $0.045 |
+| Application Pool Node Storage (128GB) |      $3.43 |     $0.020 |
+| Public IP Address                     |      $0.65 |     $0.004 |
+| Kubernetes Standard Load Balancer     |      $3.26 |     $0.019 |
+| Total                                 |     $28.98 |     $0.173 |
 
 
 Based on those costs, here are estimates for a variety of cluster configurations running at 24, 12, 8 and 4 
