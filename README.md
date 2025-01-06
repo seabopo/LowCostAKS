@@ -13,8 +13,9 @@ To be able to test the following:
   * A public IP.
 
 ### TABLE OF CONTENTS
- 1. [Required Components](.\01_components.html)
- 2. [Estimating Cluster Costs](.\02_costs.html)
+
+1. [Selecting the Required Components](.\01_components.html)
+1. [Estimating Cluster Costs](.\02_costs.html)
 
 
 \
