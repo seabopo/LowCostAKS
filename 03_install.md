@@ -5,5 +5,5 @@ Instead of installing the cluster via the Azure Portal, .
 
 
 \
-Next: 
+Next: \
 Previous: [Estimating Cluster Costs](.\02_costs.html)

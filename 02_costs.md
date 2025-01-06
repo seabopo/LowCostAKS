@@ -41,5 +41,5 @@ Nodes:
  - w = Windows Application Node
 
 \
-Next: [Installing Local Software Components](.\03_install.html)
+Next: [Installing Local Software Components](.\03_install.html) \
 Previous: [Required Components](.\01_components.html)

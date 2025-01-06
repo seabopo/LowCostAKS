@@ -65,5 +65,6 @@ double the cost of the equivalent B-Series SKUs at around $50 (ARM) or $60 (x64)
       s = Premium Storage capable, including possible use of Ultra SSD   
 
 \
-Next: [Estimating Cluster Costs](.\02_costs.html)
+Next: [Estimating Cluster Costs](.\02_costs.html) \
 Previous: [Readme](.\index.html)
+ 
