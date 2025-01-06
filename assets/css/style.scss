@@ -6,3 +6,8 @@
 .inner {
   max-width: 60%;
 }
+
+p + ul { margin-block-start: -15px }
+p      { margin-block-start:  20px }
+h3     { margin-block-end:   -16px; font-weight: bold; }
+h4     { margin-block-end:   -16px; font-weight: bold; }

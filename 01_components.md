@@ -120,25 +120,5 @@ Nodes:
  - w = Windows Application Node
 
 \
-Next: [Estimating Cluster Costs](.\01_costs.md)
-
-
-
-<style>
-    p + ul { margin-block-start: -15px }
-    p      { margin-block-start:  20px }
-    h3     { margin-block-end:   -16px; font-weight: bold; }
-    h4     { margin-block-end:   -16px; font-weight: bold; }
-</style>
-
-<!--
-P + ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: -15px;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
--->
+Next: [Estimating Cluster Costs](.\02_costs.html)
+Previous: [Readme](.\index.html)
