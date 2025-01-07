@@ -1,5 +1,5 @@
 
-### **INSTALLING COMMAND-LINE MANAGEMENT TOOLS**
+### **INSTALLING THE COMMAND-LINE MANAGEMENT TOOLS**
 
 The primary method used to manage Kubernetes is [kubectl][link09], the 
 Kubernetes command-line tool. You can use kubectl to manage a cluster, 

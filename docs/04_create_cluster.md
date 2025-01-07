@@ -5,8 +5,8 @@
 
 
 \
-Next: [Creating a Cluster](.\04_create_cluster.html) \
-Previous: [Estimating Cluster Costs](.\02_costs.html) \
+Next: \
+Previous: [Installing the Management Tools](.\03_install_tools.html) \
 [Table of Contents](.\index.html)
 
 

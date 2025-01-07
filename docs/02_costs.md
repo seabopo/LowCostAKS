@@ -1,12 +1,19 @@
 
 ### **ESTIMATED CLUSTER COSTS**
-The **D2plds_v5** SKU is the cheapest system node with 2 virtual CPUs and 4GB of RAM (the Kubernetes minimum
-requirement). Building a single-node cluster based on this SKU had the node using 38% of it's memory, so NGINX 
-and a small number of other services should be able to run on those nodes. The B-Series SKUs still works well 
-for app nodes, and they only cost an extra $5 or $10 per month for the Windows licenses where every other SKU 
-doubles the monthly cost for a Windows OS vs a Linux OS.
+The **D2plds_v5** SKU is the cheapest system node with 2 virtual CPUs and 4GB 
+of RAM (the AKS minimum requirement). Building a single-node cluster based on 
+this SKU had the node using 38% of it's memory, so NGINX and a small number of 
+other services should be able to run on those nodes. 
 
-Running a 2-node cluster based on these SKUs for one week accrued the following subscription costs:
+The B-Series SKUs still works well for app nodes, and they only cost an extra 
+$5 or $10 per month for the Windows licenses where every other SKU doubles the 
+monthly cost for a Windows OS vs a Linux OS.
+
+Unfortunately, even a single node cluster using the cheapest SKU available can't 
+be run 24x7 for $50/month.
+
+Running a 2-node cluster based on these SKUs for one week accrued the following 
+subscription costs:
 
 | Cluster Component                     | WeeklyCost | HourlyCost |
 |---------------------------------------|------------|------------|
@@ -40,10 +47,8 @@ Nodes Key:
  - L = Linux Application Node
  - w = Windows Application Node
 
-\
-Unfortunately, even a single node cluster using the cheapest SKU available can't be run 24x7 for $50/month.
 
 \
-Next: [Installing Local Software Components](.\03_install_tools.html) \
+Next: [Installing the Management Tools](.\03_install_tools.html) \
 Previous: [Required Components](.\01_components.html) \
 [Table of Contents](.\index.html)
