@@ -3,12 +3,10 @@
 
 @import "{{ site.theme }}";
 
-.inner {
-  max-width: 60%;
-}
+.inner  {  max-width: 60%; }
 
-p + ul  { margin-block-start: -15px }
-p       { margin-block-start:  20px }
+p + ul  { margin-block-start: -15px; }
+p       { margin-block-start:  20px; }
 h3 + ol { margin-block-start:  20px; font-weight: bold; }
 h3 + ul { margin-block-start:  20px; font-weight: bold; }
 h3      { margin-block-end:   -16px; font-weight: bold; }

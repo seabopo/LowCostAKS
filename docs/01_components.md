@@ -1,10 +1,10 @@
 
 ### CLUSTER COMPONENTS AND COSTS
 The minimum cluster components required:
-  * A [Kubernetes Cluster](https://learn.microsoft.com/en-us/azure/aks/free-standard-pricing-tiers) 
-    control plane for cluster management. There are three available SKUs: Free, Standard and Premium. 
-    Since this is a test cluster I'll use the free SKU. The Free SKU includes all AKS features and supports 
-    clusters up to 1,000 nodes, though Microsoft recommends 10 or fewer nodes for a free cluster.
+  * A [Kubernetes Subscription](https://learn.microsoft.com/en-us/azure/aks/free-standard-pricing-tiers) 
+    control plane for cluster management. There are three pricing tiers: Free, Standard and Premium. 
+    Since this is a test cluster I'll use the free tier, which includes all AKS features and supports 
+    clusters up to 1,000 nodes (Microsoft recommends 10 or fewer nodes for a free cluster).
   * A [load balancer](https://learn.microsoft.com/en-us/azure/load-balancer/skus) for public ingress/egress. 
     AKS clusters support two different load balancer SKUs: Basic and Standard. The Basic SKU is free, but only 
     supports a single VM Scale set and doesn't support Availability Zones. The Standard SKU will have to be used 
@@ -12,7 +12,8 @@ The minimum cluster components required:
     amounts of traffic.
   * A [public IP address](https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/public-ip-addresses) 
     (~$3/month) will be required for public access.
-  * A low-cost VM SKU for nodes, which is covered in the next section.
+  * A low-cost [VM SKU](https://learn.microsoft.com/en-us/azure/aks/quotas-skus-regions#supported-vm-sizes) 
+    for nodes, which is covered in the next section.
   
 ### SELECTING A LOW-COST VM SKU
 Most resources on the internet recommend the 
@@ -45,11 +46,11 @@ now almost double the cost of the equivalent B-Series SKUs at around $50 (ARM) o
 |   D4ads_v5    |  4  | 16  |  8  |6,400| 150 (SCSI) | $131 | $22 | $235 | $39 |       |
 
 **Notes**
+  * Local Disk sizes are in GiB.
   * VM Size costs are monthly for 24 hours (Lnx/Win 24) and 4 hours (Lnx/Win 4) per day for 30 days.
   * VM Size costs do not include the storage costs, which are approximately $14 per month ($0.02/hr) if run 24x7.
     Storage costs are calculated from nodes running for 1 week. The nodes reported a 120GB disk rather than the
     local disk sizes listed above, which are taken from Microsoft's SKU list.
-  * Local Disk sizes are in GiB.
   * For any VM Size other than the Burstable (B-Series) the Windows license cost doubles the monthly cost.
   * (a) = ARM SKUs, which may be less compatible with some 3rd party services.
   * (s) = SKUs that can't be used for System-Mode Node Pools.

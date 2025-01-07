@@ -19,8 +19,8 @@ Running a 2-node cluster based on these SKUs for one week accrued the following 
 | Total                                 |     $28.98 |     $0.173 |
 
 
-Based on those costs, here are estimates for a variety of cluster configurations running at 24, 12, 8 and 4 
-hours per day for 30 days: 
+Based on those costs, here are estimates for a variety of cluster configurations 
+running at 24, 12, 8 and 4 hours per day for 30 days: 
 
 | Nodes           |SKUs            |vCPUs|RAM|Disk | $/hr|hrs/$50| $/day|24x7|12x7| 8x7| 4x7|
 |-----------------|----------------|-----|---|-----|-----|-------|------|----|----|----|----|
@@ -40,9 +40,9 @@ Nodes:
  - L = Linux Application Node
  - w = Windows Application Node
 
-Unfortunately, even a single node cluster using the cheapest SKU available can't be run 24x7.
+Unfortunately, even a single node cluster using the cheapest SKU available can't be run 24x7 for $50/month.
 
 \
-Next: [Installing Local Software Components](.\03_install.html) \
+Next: [Installing Local Software Components](.\03_install_tools.html) \
 Previous: [Required Components](.\01_components.html) \
 [Table of Contents](.\index.html)
