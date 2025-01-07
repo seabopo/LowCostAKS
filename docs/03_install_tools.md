@@ -21,7 +21,7 @@ efficient.
  - [Install the Azure Command-Line Interface][link03]
 
 
-[Visual Studio Code][link04] is an Integrated Development Environment (IDE)) 
+[Visual Studio Code][link04] is an Integrated Development Environment (IDE) 
 that allows you to edit and run scripts. It's free, supports many languages,
 supports [GIT][link06], and works on any OS. It's easier than copying and 
 pasting code into the PowerShell/Azure CLI.
