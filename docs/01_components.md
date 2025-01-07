@@ -1,10 +1,10 @@
 
 ### CLUSTER COMPONENTS AND COSTS
 The minimum cluster components required:
-  * A [Kubernetes Subscription](https://learn.microsoft.com/en-us/azure/aks/free-standard-pricing-tiers) 
-    control plane for cluster management. There are three pricing tiers: Free, Standard and Premium. 
-    Since this is a test cluster I'll use the free tier, which includes all AKS features and supports 
-    clusters up to 1,000 nodes (Microsoft recommends 10 or fewer nodes for a free cluster).
+  * A [Kubernetes Subscription](https://learn.microsoft.com/en-us/azure/aks/free-standard-pricing-tiers). 
+    There are three pricing tiers: Free, Standard and Premium. 
+    The free tier includes all AKS features and supports clusters with up to 1,000 nodes 
+    (Microsoft recommends 10 or fewer nodes for a free cluster).
   * A [load balancer](https://learn.microsoft.com/en-us/azure/load-balancer/skus) for public ingress/egress. 
     AKS clusters support two different load balancer SKUs: Basic and Standard. The Basic SKU is free, but only 
     supports a single VM Scale set and doesn't support Availability Zones. The Standard SKU will have to be used 
