@@ -24,7 +24,7 @@ so another SKU has to be used (see [Restricted VM sizes](https://learn.microsoft
 Microsoft also requires at least 2 CPUs and 4GB of RAM for a node. 
 
 The following list (compiled on 12/15/2024) contains lower-cost, General Purpose SKUs that support 
-Local (Ephemeral) Storage. Unfortunately the cheapest usable VM Size for the system node pool is 
+local (Ephemeral) Storage. Unfortunately the cheapest usable VM Size for the system node pool is 
 now almost double the cost of the equivalent B-Series SKUs at around $50 (ARM) or $60 (x64) per month.
 
 | VM Size       |vCPUs| RAM |Disks|IOPS |LocalDisk   |Lnx24 |Lnx4 |Win24 |Win4 | Notes |
