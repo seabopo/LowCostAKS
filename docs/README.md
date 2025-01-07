@@ -7,7 +7,7 @@ Azure credit, so this is the budget target for my test subscription.
 
 ### CLUSTER REQUIREMENTS
 To be able to test the following:
-  * A public IP.
+  * A Public IP.
   * A Load-Balancer.
   * An NGINX Ingress Controller.
   * Linux and Windows nodes.
@@ -20,7 +20,7 @@ To be able to test the following:
 1. [Selecting the Required Components](.\01_components.html)
 1. [Estimating Cluster Costs](.\02_costs.html)
 1. [Installing Local Management Tools](03_intall_tools.html)
-1. Creating the Cluster
+1. [Creating an AKS Cluster](04_create_cluster.html)
 1. Installing the NGINX Ingress Controller
 
 

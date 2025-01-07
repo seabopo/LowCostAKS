@@ -35,11 +35,12 @@ running at 24, 12, 8 and 4 hours per day for 30 days:
 | 1 S + 3 L + 3 W |D2plds_v5 + B2s | 2/2 |4/4|75/8 |$0.48|  103  |$11.60|$348|$174|$116| $58|
 | 3 S + 3 L + 3 W |D2plds_v5 + B2s | 2/2 |4/4|75/8 |$0.97|   52  |$23.30|$699|$349|$233|$116|
 
-Nodes:
+Nodes Key:
  - S = Linux System Node
  - L = Linux Application Node
  - w = Windows Application Node
 
+\
 Unfortunately, even a single node cluster using the cheapest SKU available can't be run 24x7 for $50/month.
 
 \
