@@ -20,7 +20,7 @@ To be able to test the following:
 1. [Selecting the Required Components](.\01_components.html)
 1. [Estimating Cluster Costs](.\02_costs.html)
 1. [Installing the Management Tools](.\03_install_tools.html)
-1. [Creating an AKS Cluster](04_create_cluster.html)
+1. [Creating an AKS Cluster](.\04_create_cluster.html)
 1. Installing the NGINX Ingress Controller
 
 
