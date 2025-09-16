@@ -17,12 +17,12 @@ To be able to test the following:
 
 ### TABLE OF CONTENTS
 
-1. [Selecting the Required Components](.\01_components.html)
-1. [Estimating Cluster Costs](.\02_costs.html)
-1. [Installing Local Management Tools](03_intall_tools.html)
+1. [Selecting the Required Components](.\docs\01_components.html)
+1. [Estimating Cluster Costs](.\docs\02_costs.html)
+1. [Installing Local Management Tools](.\docs\03_intall_tools.html)
 1. Creating the Cluster
 1. Installing the NGINX Ingress Controller
 
 
 \
-Next: [Required Components](.\01_components.html)
+Next: [Required Components](.\docs\01_components.html)
